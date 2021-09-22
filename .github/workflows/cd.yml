@@ -2,8 +2,6 @@ name: cd
 
 on:
   workflow_run:
-    workflows:
-      - "security"
     branches:
       - main
     types:
